@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="recipe-title"></h1>
+        <img id="recipe-image" src="" alt="Recipe Image">
+        <div class="details">
+            <div class="time">
+                <h3>Prep Time:</h3>
+                <p id="prep-time"></p>
+            </div>
+            <div class="time">
+                <h3>Cook Time:</h3>
+                <p id="cook-time"></p>
+            </div>
+            <div class="time">
+                <h3>Servings:</h3>
+                <p id="servings"></p>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Ingredients:</h3>
+            <ul id="ingredients-list"></ul>
+        </div>
+        <div class="section">
+            <h3>Instructions:</h3>
+            <ol id="instructions-list"></ol>
+        </div>
+        <div class="related-recipes">
+            <h3>Related Recipes:</h3>
+            <div class="slider" id="related-recipes-slider">
+                <!-- Related recipes will be inserted here dynamically -->
+            </div>
+        </div>
+    </div>
+    <script src="recipe.js"></script>
+</body>
+</html>
