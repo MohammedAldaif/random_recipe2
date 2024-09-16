@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="landing-page">
+        <h1>Welcome to the Recipe Adventure!</h1>
+        <p>Find a delicious recipe randomly selected for you!</p>
+        <button id="go-button">Let's Go</button>
+        <div class="checkbox-container">
+            <input type="checkbox" id="vegan-checkbox">
+            <label for="vegan-checkbox">I'm vegan</label>
+        </div>
+    </header>
+
+    <section id="recipe-section" style="display:none;">
+        <div class="recipe-container">
+            <div class="recipe-image">
+                <img id="recipe-image" src="" alt="Recipe Image">
+            </div>
+            <div class="recipe-details">
+                <h2 id="recipe-title"></h2>
+                <div id="recipe-info">
+                    <h3>Ingredients:</h3>
+                    <ul id="ingredients-list"></ul>
+                    <h3>Instructions:</h3>
+                    <div id="instructions-list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="profile.jpg" alt="Programmer's Image" class="profile-pic">
+        <p class="programmer-name">Mohammed</p>
+        <p class="description">Passionate about coding and great food!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
