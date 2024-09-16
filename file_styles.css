@@ -1,0 +1,67 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF5E1;
+  color: #4E3620;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #FFF5E1;
+}
+
+h1 {
+  font-size: 3em;
+  color: #E27D60;
+}
+
+p {
+  font-size: 1.2em;
+  color: #A3B18A;
+}
+
+#go-button {
+  background-color: #FFA726;
+  color: #4E3620;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#go-button:hover {
+  background-color: #FF9800;
+}
+
+.checkbox-container {
+  margin-top: 20px;
+}
+
+#vegan-checkbox {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #E27D60;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.programmer-name {
+  font-size: 1.5em;
+  color: #FFF5E1;
+}
+
+.description {
+  color: #FFF5E1;
+  font-size: 1.2em;
+}
