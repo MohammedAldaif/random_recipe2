@@ -1,0 +1,144 @@
+/* Header styles */
+header {
+    background-color: #E27D60; /* Background color for the header */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2.5em;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Home button hover effects */
+  .home-button {
+    background-color: #41B3A3;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #85DCB0;
+    transform: scale(1.1);
+  }
+  
+  .home-button:active {
+    background-color: #3C9B89;
+    transform: scale(1);
+  }
+  
+  /* Animations for Home button */
+  .home-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .home-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+  
+  .home-button:hover::before {
+    width: 400%;
+    height: 400%;
+    top: 50%;
+    left: 50%;
+  }
+  
+  /* Additional styling for details page */
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .recipe-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .ingredients-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .ingredient1, .ingredient2 {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  .instructions {
+    margin-top: 20px;
+  }
+  
+  .instructions h3 {
+    font-size: 1.8em;
+  }
+  
+  .instructions p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }  
